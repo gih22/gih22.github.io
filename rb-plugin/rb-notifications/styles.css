@@ -1,0 +1,238 @@
+.nfyWrap {
+    position: absolute;
+    top: 50px;
+    right:0;
+    width: 300px;
+    background: #fefefe;
+    padding: 0;
+	color: #7c8792;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, .1);
+    z-index: 999;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.nfyWrap .nfyTop {
+    font-size: 16px;
+    line-height: 12px;
+    padding:10px 5px;
+    color: #8d9aa5;
+	font-weight:300;
+    border-bottom: 1px solid #d4d9dd;
+}
+
+.nfyWrap .nfyContainer {
+	width: 100%;
+    overflow-y: auto;
+	overflow-x:hidden;
+    padding: 0;
+    height: 240px;
+	background: #f9fafa;
+}
+
+.nfyContainer::-webkit-scrollbar-track
+{
+	background-color:#f5f5f5;
+}
+
+.nfyContainer::-webkit-scrollbar
+{
+	width: 6px;
+} 
+
+.nfyContainer::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgba(172,183,190,0.5);
+}
+
+.nfyWrap .nfyFooter {
+	border-top: 1px solid #d4d9dd;
+}
+
+.nfyWrap .nfyFooter a {
+    color: #b2bac2;
+    cursor: pointer;
+	width:100%;
+	text-align:center;
+	display:block;
+	font-size:12px;
+	font-weight:700;
+	padding:8px 0;
+}
+
+.nfyWrap .nfyFooter a:hover {
+	background-color:#D63E3D;
+	color:#fff;
+	border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+}
+
+.nfyWrap .itemBox,.nfyWrap .itemBox-new {
+	width:300px;
+    border-bottom: 1px solid #edeff0;
+    float: left;
+    padding: 6px 0;
+}
+
+.nfyWrap .itemBox-new {
+    background: #EBF8FF;
+	z-index: 999;
+	position: relative;
+}
+
+.nfyWrap .itemBox:hover {
+    background: #fff;
+}
+
+.nfyWrap .itemBoxNew {
+    background-color: #ffffe2;
+}
+
+.nfyWrap .nfyItemLine {
+    float: left;
+    width: 260px;
+	padding:0 5px;
+    font-size: 11px;
+    color: #D6DBDC;
+}
+
+.nfyWrap .nfyItemLine a {
+    font-size: 11px;
+	display:block;
+    color: #666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nfyWrap .nfyItemLine p {
+    margin: 0 0 2px 0;
+    line-height: 1.2;
+}
+
+.nfyWrap .siteLink {
+    font-size: 9px !important;
+    text-decoration: none;
+    font-weight: normal !important;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.nfyWrap .nfyItemLine a:hover {
+    color: #D63E3D;
+}
+
+.nfyIcon {
+    display: block;
+    float: left;
+	width:20px;
+	margin-top:10px;
+	padding-left:4px;
+	vertical-align:center;
+    text-decoration: none;
+}
+
+.nfyIcon img {
+    width: 16px;
+    height: 16px;
+    border: 0;
+}
+
+.nfyTime {
+    color: #D6DBDC;
+}
+
+.rb-history-event-nill {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    border: 0;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px #999;
+    -webkit-box-shadow: 0 1px 1px #999;
+    box-shadow: 0 1px 1px #999;
+    text-align: center;
+    background-color: #999;
+    font-style: italic;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+.rb-history-new-event-link {
+width: 34px;
+height: 34px;
+display: inline-block;
+}
+.ntfy-event-new {
+	background: #D63E3D url(img/bell.png) no-repeat center center;
+	width: 34px;
+	height: 34px;
+	display:inline-block;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border:0;
+	cursor:pointer;
+    font-size: 60%;
+    font-weight: bold;
+	color:#fff;
+	text-align:center;
+	line-height:34px;
+}
+
+.ntfy-event-nill {
+background: #b0b7bb url(img/bell.png) no-repeat center center;
+width: 34px;
+height: 34px;
+display:inline-block;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+border:0;
+font-size:0;
+cursor:pointer;
+}
+
+.ntfy-read{
+	background: #b0b7bb url(img/bell.png) no-repeat center center;
+width: 34px;
+height: 34px;
+display:inline-block;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+border:0;
+cursor:pointer;
+}
+
+.nfyWrap .arrow {
+	position: absolute;
+top: -7px;
+right: 10px;
+content: "";
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-bottom: 7px solid #fff;
+}
+
+.no-nfy {
+	font-size:16px;
+	width:300px;
+	z-index:998;
+	left:0;
+	top:60px;
+	position:absolute;	
+}
+
+.itemBox {
+	background-color:#f9fafa;
+	z-index:999;
+	position:relative;
+}
+
+.install-body {
+	position:fixed;
+	top:50%;
+	left:25%;
+}

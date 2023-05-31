@@ -1,0 +1,105 @@
+/* Set the overall font and font size */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Set the styles for the main header */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Set the styles for navigation links */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px #000000;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+}
+
+/* Set the styles for regular links */
+a {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #87CEFA;
+    text-decoration: underline;
+}
+
+/* Set the styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #6495ED;
+    text-shadow: 1px 1px #000000;
+}
+
+/* Set the styles for code blocks */
+pre {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 10px;
+    overflow: auto;
+}
+
+/* Set the styles for blockquotes */
+blockquote {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    padding: 10px;
+    border-left: 4px solid #6495ED;
+}
+
+/* Set the styles for lists */
+ul, ol {
+    color: #ffffff;
+}
+
+/* Set the styles for table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    color: #ffffff;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+th {
+    background-color: #6495ED;
+    color: #ffffff;
+}
+
+/* Set the styles for the footer */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 1px 1px #000000;
+}

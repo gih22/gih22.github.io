@@ -1,0 +1,79 @@
+div.show-online-user-count-total {
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 1px #D4D9DD solid;
+	margin-bottom: 10px;
+	height: 20px;
+	background-color: #FFF;
+	background-image: url(images/users-icon.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 10px 10px 10px 10px;
+	border-radius:6px 6px 0 0;
+}
+
+.show-online-user-count-data {
+	font-weight: bold;
+	color: #e74c3c;
+}
+.show-online-user-count-info {
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+div.show-online-user-list {
+background-color: #F9FAFA;
+padding: 5px 0;
+display:block;
+position:relative;
+}
+.show-online-user-list_title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	margin:5px 0;
+	padding:8px 0;
+	background-color:#fff;
+	border-bottom: 1px solid #EDEFF0;
+}
+.show-online-user-count-widget {
+padding: 0 0 10px 0;
+margin-bottom: 10px;
+margin-top: 10px;
+background: #F9FAFA;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+
+.show-stats-list {
+	display:block;
+	clear:both;
+	margin:12px 5px 0;
+	background-color: #FFFFFF;
+	padding:5px;
+	border-radius:6px;
+	color: #94A3A8;
+	font-size: 12px;
+	text-align:center;
+}
+
+.show-online-user-list-users .rb-user-link {
+	display:block;
+	height:24px;
+	line-height:24px;
+	padding:5px 8px;
+	clear:both;
+	color: #66666F;
+	float:none;
+	border-bottom: 1px solid #EDEFF0;
+}
+
+.show-online-user-list-users {
+	display:block;
+}
+
+.show-online-user-list-users .rb-user-link:hover {
+	background-color:#fff;
+	color: #D63E3D;
+}
